@@ -51,9 +51,9 @@ test('null values return responsive styles in the correct order', () => {
 
   expect(Object.keys(a)).toEqual([
     'margin',
+    'padding',
     '@media screen and (min-width: 40em)',
     '@media screen and (min-width: 52em)',
-    'padding',
   ])
 })
 
@@ -72,10 +72,10 @@ test('object values return responsive styles in the correct order', () => {
   })
 
   expect(Object.keys(a)).toEqual([
+    'margin',
+    'padding',
     '@media screen and (min-width: 40em)',
     '@media screen and (min-width: 52em)',
     '@media screen and (min-width: 64em)',
-    'margin',
-    'padding',
   ])
 })

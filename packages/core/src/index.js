@@ -85,7 +85,17 @@ export const createParser = config => {
       styles = sort(styles)
     }
 
-    return styles
+    var sortedStyles = {};
+    var mediaQueryStyles = {};
+    for (var key in styles) {
+      if (key.startsWith('@media')) {
+        mediaQueryStyles[key] = styles[key];
+        continue;
+      }
+      sortedStyles[key] = styles[key]
+    }
+
+    return merge(sortedStyles, mediaQueryStyles)
   }
   parse.config = config
   parse.propNames = Object.keys(config)
