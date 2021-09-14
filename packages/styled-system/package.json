@@ -1,9 +1,10 @@
 {
   "name": "@class101/styled-system",
-  "version": "5.1.5",
+  "version": "5.2.2",
   "description": "Responsive, theme-based style props for building design systems with React",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
+  "types": "index.d.ts",
   "keywords": [
     "react",
     "css-in-js",
@@ -16,7 +17,7 @@
     "@styled-system/background": "^5.1.2",
     "@styled-system/border": "^5.1.5",
     "@styled-system/color": "^5.1.2",
-    "@class101/styled-system__core": "^5.1.2",
+    "@class101/styled-system__core": "^5.2.0",
     "@styled-system/flexbox": "^5.1.2",
     "@styled-system/grid": "^5.1.2",
     "@styled-system/layout": "^5.1.2",
