@@ -1,13 +1,13 @@
 {
   "name": "@class101/styled-system__variant",
-  "version": "5.1.5",
+  "version": "5.3.1",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "author": "Brent Jackson <jxnblk@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@class101/styled-system__core": "^5.3.0",
-    "@class101/styled-system__css": "^5.1.5"
+    "@class101/styled-system__core": "^5.3.1",
+    "@class101/styled-system__css": "^5.3.1"
   },
   "gitHead": "a6feb6009c58f2eb68f0c3120c5672f6cb54294f",
   "publishConfig": {
