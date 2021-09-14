@@ -1,6 +1,6 @@
 {
   "name": "@class101/styled-system",
-  "version": "5.2.3",
+  "version": "5.2.4",
   "description": "Responsive, theme-based style props for building design systems with React",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
