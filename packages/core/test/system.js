@@ -265,11 +265,11 @@ test('sorts media queries when responsive object values are used', () => {
     color: { lg: 'tomato' },
   })
   expect(Object.keys(styles)).toEqual([
+    'padding',
     '@media screen and (min-width: 32em)',
     '@media screen and (min-width: 40em)',
     '@media screen and (min-width: 64em)',
     '@media screen and (min-width: 128em)',
-    'padding',
   ])
 })
 

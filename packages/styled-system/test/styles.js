@@ -195,8 +195,8 @@ test('compose maintains media query order', () => {
   })
   expect(Object.keys(a)).toEqual([
     'backgroundColor',
+    'width',
     '@media screen and (min-width: 40em)',
     '@media screen and (min-width: 52em)',
-    'width',
   ])
 })
