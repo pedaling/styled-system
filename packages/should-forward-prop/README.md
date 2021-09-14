@@ -1,10 +1,10 @@
 
-# @styled-system/should-forward-prop
+# @class101/styled-system__should-forward-prop
 
 Utility for filtering Styled System props with Emotion's shouldForwardProp option
 
 ```sh
-npm i @styled-system/should-forward-prop
+npm i @class101/styled-system__should-forward-prop
 ```
 
 ```js
@@ -14,7 +14,7 @@ import {
   color,
   typography
 } from 'styled-system'
-import shouldForwardProp from '@styled-system/should-forward-prop'
+import shouldForwardProp from '@class101/styled-system__should-forward-prop'
 
 const Box = styled('div', { shouldForwardProp })(
   space,
@@ -30,7 +30,7 @@ To exclude other custom props not included in Styled System, use the `createShou
 ```js
 import styled from '@emotion/styled'
 import { space, color } from 'styled-system'
-import { createShouldForwardProp, props } from '@styled-system/should-forward-prop'
+import { createShouldForwardProp, props } from '@class101/styled-system__should-forward-prop'
 
 const shouldForwardProp = createShouldForwardProp([
   ...props,

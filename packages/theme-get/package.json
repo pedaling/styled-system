@@ -1,12 +1,12 @@
 {
-  "name": "@styled-system/theme-get",
+  "name": "@class101/styled-system__theme-get",
   "version": "5.1.2",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "author": "Brent Jackson <jxnblk@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@styled-system/core": "^5.1.2"
+    "@class101/styled-system__core": "^5.3.0"
   },
   "gitHead": "a6feb6009c58f2eb68f0c3120c5672f6cb54294f",
   "publishConfig": {

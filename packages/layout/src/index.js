@@ -1,4 +1,4 @@
-import { system, get } from '@styled-system/core'
+import { system, get } from '@class101/styled-system__core'
 
 const isNumber = n => typeof n === 'number' && !isNaN(n)
 const getWidth = (n, scale) =>

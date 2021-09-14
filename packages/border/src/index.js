@@ -1,4 +1,4 @@
-import { system } from '@styled-system/core'
+import { system } from '@class101/styled-system__core'
 
 const config = {
   border: {

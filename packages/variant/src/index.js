@@ -1,5 +1,5 @@
-import { get, createParser } from '@styled-system/core'
-import css from '@styled-system/css'
+import { get, createParser } from '@class101/styled-system__core'
+import css from '@class101/styled-system__css'
 
 export const variant = ({
   scale,

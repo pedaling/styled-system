@@ -1,18 +1,18 @@
 
-# @styled-system/edit
+# @class101/styled-system__edit
 
 **WIP** Debugging tool for live editing Styled System theme objects
 
 *Currently only works with Emotion*
 
 ```sh
-npm i @styled-system/edit
+npm i @class101/styled-system__edit
 ```
 
 ```jsx
 import React from 'react'
 import { ThemeProvider } from 'emotion-theming'
-import { EditProvider, ThemeControls } from '@styled-system/edit'
+import { EditProvider, ThemeControls } from '@class101/styled-system__edit'
 import theme from './theme'
 
 export default props =>
@@ -35,7 +35,7 @@ export default props =>
 // example using FieldSet
 import React from 'react'
 import { ThemeProvider } from 'emotion-theming'
-import { EditProvider, ThemeControls } from '@styled-system/edit'
+import { EditProvider, ThemeControls } from '@class101/styled-system__edit'
 import theme from './theme'
 
 export default props =>
@@ -52,7 +52,7 @@ export default props =>
 // example using Field
 import React from 'react'
 import { ThemeProvider } from 'emotion-theming'
-import { EditProvider, ThemeControls } from '@styled-system/edit'
+import { EditProvider, ThemeControls } from '@class101/styled-system__edit'
 import theme from './theme'
 
 export default props =>

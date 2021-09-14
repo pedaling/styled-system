@@ -169,7 +169,7 @@ To learn more, see the [Getting Started](https://styled-system.com/getting-start
 - [Reference Table](https://styled-system.com/table)
 - [Packages](https://styled-system.com/packages)
 - [Guides](https://styled-system.com/guides)
-- [@styled-system/css](https://styled-system.com/css)
+- [@class101/styled-system__css](https://styled-system.com/css)
 
 ---
 

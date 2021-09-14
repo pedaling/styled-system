@@ -1,14 +1,14 @@
 
-# @styled-system/props
+# @class101/styled-system__props
 
 Utilities for using Styled System props
 
 ```sh
-npm i @styled-system/props
+npm i @class101/styled-system__props
 ```
 
 ```js
-import { pick, omit } from '@styled-system/props'
+import { pick, omit } from '@class101/styled-system__props'
 
 const attr = omit({
   id: 'keep-this',

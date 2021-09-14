@@ -1,4 +1,4 @@
-import { system } from '@styled-system/core'
+import { system } from '@class101/styled-system__core'
 
 const defaults = {
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72],

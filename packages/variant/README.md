@@ -1,5 +1,5 @@
 
-# @styled-system/variant
+# @class101/styled-system__variant
 
 Read the docs: https://styled-system.com/variants
 
@@ -7,7 +7,7 @@ Read the docs: https://styled-system.com/variants
 
 ```js
 import styled from 'styled-components'
-import variant from '@styled-system/variant'
+import variant from '@class101/styled-system__variant'
 
 const Button = styled('button')(
   variant({

@@ -1,5 +1,5 @@
 {
-  "name": "@styled-system/css",
+  "name": "@class101/styled-system__css",
   "version": "5.1.5",
   "description": "Styled System for the `css` prop",
   "main": "dist/index.js",

@@ -1,16 +1,16 @@
 
-# @styled-system/prop-types
+# @class101/styled-system__prop-types
 
 Add prop types to components built with Styled System
 
 ```sh
-npm i styled-system @styled-system/prop-types
+npm i styled-system @class101/styled-system__prop-types
 ```
 
 ```js
 import styled from 'styled-components'
 import { space, color } from 'styled-system'
-import propTypes from '@styled-system/prop-types'
+import propTypes from '@class101/styled-system__prop-types'
 
 const Box = styled('div')(space, color)
 
@@ -39,7 +39,7 @@ See props of each category in [the reference table](https://styled-system.com/ta
 ```js
 import styled from 'styled-components'
 import { space, system } from 'styled-system'
-import propTypes, { propType } from '@styled-system/prop-types'
+import propTypes, { propType } from '@class101/styled-system__prop-types'
 
 const gridGap = system({
   gap: {

@@ -1,10 +1,10 @@
 
-# @styled-system/css
+# @class101/styled-system__css
 
 Styled System for the `css` prop
 
 ```sh
-npm i @styled-system/css
+npm i @class101/styled-system__css
 ```
 
 Styled System CSS lets you write style objects with responsive, theme-aware Styled System shortcuts.
@@ -12,7 +12,7 @@ Styled System CSS lets you write style objects with responsive, theme-aware Styl
 ```jsx
 // usage with the css prop
 import React from 'react'
-import css from '@styled-system/css'
+import css from '@class101/styled-system__css'
 
 const Beep = props =>
   <div
@@ -27,7 +27,7 @@ const Beep = props =>
 ```js
 // usage with a styled HOC
 import styled from '@emotion/styled'
-import css from '@styled-system/css'
+import css from '@class101/styled-system__css'
 
 const Boop = styled('div')(
   css({

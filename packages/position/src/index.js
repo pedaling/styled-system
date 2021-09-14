@@ -1,4 +1,4 @@
-import { system } from '@styled-system/core'
+import { system } from '@class101/styled-system__core'
 
 const defaults = {
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],

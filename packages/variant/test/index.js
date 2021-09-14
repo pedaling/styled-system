@@ -3,7 +3,7 @@ import {
   textStyle,
   colorStyle,
 } from '../src'
-import { system, compose } from '@styled-system/core'
+import { system, compose } from '@class101/styled-system__core'
 
 const theme = {
   colors: {

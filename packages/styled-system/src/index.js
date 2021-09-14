@@ -1,13 +1,13 @@
-import { createStyleFunction, createParser } from '@styled-system/core'
+import { createStyleFunction, createParser } from '@class101/styled-system__core'
 // v4 api shims
-import layout from '@styled-system/layout'
-import color from '@styled-system/color'
-import typography from '@styled-system/typography'
-import flexbox from '@styled-system/flexbox'
-import grid from '@styled-system/grid'
-import border from '@styled-system/border'
-import background from '@styled-system/background'
-import position from '@styled-system/position'
+import layout from '@class101/styled-system__layout'
+import color from '@class101/styled-system__color'
+import typography from '@class101/styled-system__typography'
+import flexbox from '@class101/styled-system__flexbox'
+import grid from '@class101/styled-system__grid'
+import border from '@class101/styled-system__border'
+import background from '@class101/styled-system__background'
+import position from '@class101/styled-system__position'
 
 export {
   get,
@@ -15,26 +15,26 @@ export {
   createStyleFunction,
   compose,
   system,
-} from '@styled-system/core'
+} from '@class101/styled-system__core'
 
-export { margin, padding, space } from '@styled-system/space'
-export { color } from '@styled-system/color'
-export { layout } from '@styled-system/layout'
-export { typography } from '@styled-system/typography'
-export { flexbox } from '@styled-system/flexbox'
-export { border } from '@styled-system/border'
-export { background } from '@styled-system/background'
-export { position } from '@styled-system/position'
-export { grid } from '@styled-system/grid'
-export { shadow } from '@styled-system/shadow'
-export { default as boxShadow, default as textShadow } from '@styled-system/shadow'
+export { margin, padding, space } from '@class101/styled-system__space'
+export { color } from '@class101/styled-system__color'
+export { layout } from '@class101/styled-system__layout'
+export { typography } from '@class101/styled-system__typography'
+export { flexbox } from '@class101/styled-system__flexbox'
+export { border } from '@class101/styled-system__border'
+export { background } from '@class101/styled-system__background'
+export { position } from '@class101/styled-system__position'
+export { grid } from '@class101/styled-system__grid'
+export { shadow } from '@class101/styled-system__shadow'
+export { default as boxShadow, default as textShadow } from '@class101/styled-system__shadow'
 
 export {
   variant,
   buttonStyle,
   textStyle,
   colorStyle
-} from '@styled-system/variant'
+} from '@class101/styled-system__variant'
 
 const {
   width,
@@ -114,7 +114,7 @@ const {
   left,
 } = position
 
-export { default as borders } from '@styled-system/border'
+export { default as borders } from '@class101/styled-system__border'
 export {
   width,
   height,
