@@ -52,28 +52,10 @@ export const createParser = config => {
       const raw = props[key]
       const scale = get(props.theme, sx.scale, sx.defaults)
 
-      if (typeof raw === 'object') {
-        cache.breakpoints =
-          (!isCacheDisabled && cache.breakpoints) ||
-          get(props.theme, 'breakpoints', defaults.breakpoints)
-        if (Array.isArray(raw)) {
-          cache.media = (!isCacheDisabled && cache.media) || [
-            null,
-            ...cache.breakpoints.map(createMediaQuery),
-          ]
-          styles = merge(
-            styles,
-            parseResponsiveStyle(cache.media, sx, scale, raw, props)
-          )
-          continue
-        }
-        if (raw !== null) {
-          styles = merge(
-            styles,
-            parseResponsiveObject(cache.breakpoints, sx, scale, raw, props)
-          )
-          shouldSort = true
-        }
+      if (typeof raw === 'object' && Array.isArray(raw)) {
+        cache.breakpoints = (!isCacheDisabled && cache.breakpoints) || get(props.theme, 'breakpoints', defaults.breakpoints)
+        cache.media = !isCacheDisabled && cache.media || [null].concat(cache.breakpoints.map(createMediaQuery));
+        styles = merge(styles, parseResponsiveStyle(cache.media, sx, scale, raw, props));
         continue
       }
 
