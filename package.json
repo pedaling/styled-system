@@ -40,7 +40,6 @@
     "prettier": "^2.0.1",
     "react": "^16.8.5",
     "react-test-renderer": "^16.8.5",
-    "csstype": "^3.0.2",
     "typescript": "4.4.3"
   },
   "jest": {
