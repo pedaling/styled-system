@@ -1,14 +1,9 @@
-import { system, get } from '@class101/styled-system__core'
-
-const isNumber = n => typeof n === 'number' && !isNaN(n)
-const getWidth = (n, scale) =>
-  get(scale, n, !isNumber(n) || n > 1 ? n : n * 100 + '%')
+import { system } from '@class101/styled-system__core'
 
 const config = {
   width: {
     property: 'width',
     scale: 'sizes',
-    transform: getWidth,
   },
   height: {
     property: 'height',
